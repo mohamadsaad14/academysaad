@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Pasco</title>
+    <link rel="shortcut icon" href="image/logo (1).png" />
+  </head>
+  <body>
+    <!--start header-->
+    <div class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p><a href="tel:+19880899">Call Us +1(9880899)</a></p>
+          </div>
+          <div class="col">
+            <a
+              class="btn btn-danger"
+              data-toggle="modal"
+              data-target="#staticBackdrop"
+              href=""
+              >login</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end header-->
+    <!--start nav-->
+
+    <nav class="navbar bg-light navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="image/logotrans.png" style="width: 80px" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="courses.html">courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact_us.html">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--end nav-->
+
+    <!-- start Modal -->
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-backdrop="static"
+      data-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Login</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <small id="emailHelp" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small
+                >
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-danger">login</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end modal -->
+
+    <!--start page-->
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">blog</li>
+          </ol>
+        </nav>
+        <h1 class="display-4">our blogs</h1>
+        <p class="lead">here you can read the last blog</p>
+      </div>
+    </div>
+
+    <!--end page-->
+
+    <!--start blog-->
+    <section class="blogs">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9 col-12">
+            <div class="jumbotron">
+              <div class="blog_info">
+                <h1>Revolut introduces salary</h1>
+                <span>August 20, 2021</span>
+                <p>advance feature in the UK.</p>
+                <a href="Revolutblog.html" class="btn btn-primary">read more</a>
+              </div>
+              <div class="blog_image">
+                <img class="w-100" src="image/Revolut introduces salary.jpeg" />
+              </div>
+            </div>
+
+            <div class="jumbotron">
+              <div class="blog_info">
+                <h1>Regology snares $8M</h1>
+                <span>August 19, 2021</span>
+                <p>to help navigate maze of global regulations</p>
+                <a href="Regologyblog.html" class="btn btn-primary"
+                  >read more</a
+                >
+              </div>
+              <div class="blog_image">
+                <img class="w-100" src="image/Regology snares.jpeg" />
+              </div>
+            </div>
+
+            <div class="jumbotron">
+              <div class="blog_info">
+                <h1>OnlyFans</h1>
+                <span>August 18, 2021</span>
+                <p>OnlyFans bans explicit content</p>
+                <a href="OnlyFansblog.html" class="btn btn-primary"
+                  >read more</a
+                >
+              </div>
+              <div class="blog_image">
+                <img class="w-100" src="image/only.jpeg" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div>
+              <h2>Blogs</h2>
+              <div class="list-group">
+                <a
+                  href="blog.html"
+                  class="list-group-item list-group-item-action active"
+                  aria-current="true"
+                >
+                  The Latest
+                </a>
+                <a
+                  href="OnlyFansblog.html"
+                  class="list-group-item list-group-item-action"
+                  >Technology</a
+                >
+                <a
+                  href="Regologyblog.html"
+                  class="list-group-item list-group-item-action"
+                  >Newsletters</a
+                >
+                <a
+                  href="Revolutblog.html"
+                  class="list-group-item list-group-item-action"
+                  >Week in Review</a
+                >
+              </div>
+            </div>
+
+            <div>
+              <h2 class="mt-5">Courses</h2>
+              <div class="list-group">
+                <a
+                  href="Web-Developer.html"
+                  class="list-group-item list-group-item-action active"
+                  aria-current="true"
+                >
+                  Web-Developer
+                </a>
+                <a
+                  href="cyber-security.html"
+                  class="list-group-item list-group-item-action"
+                  >cyber-security</a
+                >
+                <a
+                  href="ccna.html"
+                  class="list-group-item list-group-item-action"
+                  >CCNA</a
+                >
+                <a
+                  href="html5.html"
+                  class="list-group-item list-group-item-action"
+                  >HTML5</a
+                >
+                <a
+                  href="css.html"
+                  class="list-group-item list-group-item-action"
+                  tabindex="-1"
+                  aria-disabled="false"
+                  >CSS</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="blog.html">Previous</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="Revolutblog.html">1</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="Regologyblog.html">2</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="OnlyFansblog.html">3</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="blog.html">Next</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <!--end blog-->
+
+    <!-- start footer  -->
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <a href=""
+              ><img src="image/logotrans.png" style="width: 80px" alt=""
+            /></a>
+            <p class="text-justify">
+              Its a private edaucational institution operating.
+            </p>
+          </div>
+          <div class="col-6 col-md-3">
+            <h6>categories</h6>
+            <ul class="footer-links">
+              <li><a href="blog.html">BLOG</a></li>
+              <li><a href="contact_us.html">CONTACT</a></li>
+              <li><a href="courses.html">COURSES</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-3">
+            <h6>Recent News</h6>
+            <ul class="footer-links">
+              <li><a href="">introduces salary</a></li>
+              <li><a href="">Regology snares $8M</a></li>
+              <li><a href="">OnlyFans bans content</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr class="small" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-12">
+            <p class="copyright-text">
+              copyright &copy; 2020 all rights reserved by
+              <a href="index.html">Pasco</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12">
+            <ul class="social-icons">
+              <li>
+                <a class="facebook" href=""
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a class="twitter" href=""><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a class="linkend" href=""
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li>
+                <a class="instagram" href=""
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
